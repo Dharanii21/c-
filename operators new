@@ -13,3 +13,40 @@ int main() {
 
     return 0;
 }
+
+#include <stdio.h>
+
+int main() {
+    // square
+     int a;
+     printf("Enter the value of a : ");
+     scanf("%d",&a);
+     int square = a*a;
+     printf("The value of square of a :%d\n\n",square);
+     
+     //cube
+     int b;
+     printf("Enter the value of b : ");
+     scanf("%d",&b);
+     int cube = b*b*b;
+     printf("The value of cube of b :%d\n\n",cube);
+     
+     //AREA OF THE CIRCUMFERANCE
+     float c;
+     printf("Enter the value of c :");
+     scanf("%f",&c);
+     float circumferance = 2*3.14*c;
+     printf("The circumferance of c :%f\n\n",circumferance);
+     
+     //area
+     float d;
+     printf("Enter the value of d :");
+     scanf("%f",&d);
+     float area = 3.14*d*d;
+     printf("The area of d :%f\n",area);
+     
+     //
+     return 0;
+}
+
+
