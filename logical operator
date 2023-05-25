@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int num=15;
+    if("num%2==0 && num%3==0")
+    {
+        printf("good\n");
+    }
+    else
+    {
+        printf("bad\n");
+    }
+  
+  
+   int num1=15;
+    if("num1%2==0 || num1%3==0")
+    {
+        printf("good\n");
+    }
+    else
+    {
+        printf("bad\n");
+    }
+    
+     int num2=15;
+    if("num2%2==0 && num2%3==0")
+    {
+        printf("good\n");
+    }
+    else
+    {
+        printf("bad\n");
+    }
+    return 0;
+}
