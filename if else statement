@@ -83,3 +83,20 @@ int main() {
 
     return 0;
 }
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int num=-216;
+    if(num>0)
+    {
+        printf("positive\n");
+    }
+    else{
+        printf("negative\n");
+    }
+
+    return 0;
+}
