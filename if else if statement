@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a;
+    printf("age of the person:");
+    scanf("%d",&a);
+    if(a<=13){
+    
+        printf("under 13\n");
+    }
+    else if(a>14&&a<=60){
+        printf("adult\n");
+    }
+    else{
+        printf("senior\n");
+    }
+    
+    
+    
+
+    return 0;
+}
