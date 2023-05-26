@@ -100,3 +100,23 @@ int main() {
 
     return 0;
 }
+
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a;
+    printf("enter the value:");
+    scanf("%d",&a);
+    if(a>0)
+    {
+        printf("the no is posi\n");
+    }
+    else{
+        printf("the no is neg\n");
+    }
+
+    return 0;
+}
