@@ -31,3 +31,20 @@ int main() {
 
     return 0;
 }
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int num=6;
+    if(num>5 && num<10)
+    {
+        printf("success\n");
+    }
+    else{
+        printf("fail\n");
+    }
+
+    return 0;
+}
