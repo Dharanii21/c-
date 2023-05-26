@@ -21,3 +21,31 @@ int main() {
 
     return 0;
 }
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a;
+    printf("number::");
+    scanf("%d",&a);
+    if(a%2==0 && a%3==0){
+    
+        printf("tamilnadu\n");
+    }
+    else if(a%2==0){
+        printf("andhra\n");
+    }
+    else if(a%3==0){
+        printf("kerala\n");
+    }
+    else{
+        printf("karnataka");
+    }
+    
+    
+    
+
+    return 0;
+}   
