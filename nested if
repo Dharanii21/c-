@@ -21,3 +21,40 @@ else
 }
 return 0;
 }
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+    char gender='M';
+    int age=23;
+    if (gender=='M' || gender=='m')
+    {
+        if (age>=18)
+        {
+            printf("eligible bachelor");
+        }
+        else
+        {
+            printf("not eligble");
+        }
+    }
+    else if(gender=='F'|| gender=='f')
+    {
+        if (age>=18)
+        {
+            printf("eligible spinster");
+        }
+        else
+        {
+            printf("noy eligible");
+        }
+    }
+    else
+    {
+        printf("please check the given detil");
+    }
+    return 0;
+}
