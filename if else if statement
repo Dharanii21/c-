@@ -110,3 +110,34 @@ int main() {
 
     return 0;
 }   
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int car;
+    printf("car num:");
+    scanf("%d",&car);
+    
+    
+    if(243%car==0){
+    
+        printf("road a\n");
+    }
+    else if(135%car==0){
+        printf("road b\n");
+    }
+    else if(567%car==0){
+        printf("road c\n");
+    }
+    else{
+        printf("no road\n");
+    
+    }
+    
+    
+    
+
+    return 0;
+}   
