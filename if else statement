@@ -120,3 +120,23 @@ int main() {
 
     return 0;
 }
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    float a=;
+    float b;
+    printf("enter the amount:");
+    scanf("%f",&b);
+    if(a>b)
+    {
+        printf("the balance is sufficent\n");
+    }
+    else{
+        printf("the balance is insufficient\n");
+    }
+
+    return 0;
+}
