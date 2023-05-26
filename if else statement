@@ -1,3 +1,4 @@
+eligible to vote
 #include <stdio.h>
 
 int main() {
@@ -15,7 +16,7 @@ int main() {
     return 0;
 }
 
-
+success or failer 
 #include <stdio.h>
 
 int main() {
@@ -67,7 +68,7 @@ int main() {
 }
 
 
-
+odd or even
 #include <stdio.h>
 
 int main() {
@@ -84,7 +85,7 @@ int main() {
     return 0;
 }
 
-
+positive or negative 
 #include <stdio.h>
 
 int main() {
