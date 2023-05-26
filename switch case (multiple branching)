@@ -18,3 +18,58 @@ int main()
         printf("enter the valid number ");
     }
 }
+
+
+#include <stdio.h>
+
+int main() {
+
+  char choice=3;
+
+  switch(choice)
+
+  {
+
+    case 1:
+
+    printf("NET Banking");
+
+    break;
+
+     
+
+    case 2:
+
+    printf("UPI");
+
+    break;
+
+     
+
+    case 3:
+
+    printf("Card");
+
+    break;
+
+     
+
+    case 4:
+
+    printf("COD");
+
+    break;
+
+     
+
+    default:
+
+    printf("enter the valid method");
+
+  }
+
+     
+
+return 0;
+
+}
