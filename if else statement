@@ -65,3 +65,21 @@ int main() {
 
     return 0;
 }
+
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int num=11;
+    if(num%2==0)
+    {
+        printf("even\n");
+    }
+    else{
+        printf("odd\n");
+    }
+
+    return 0;
+}
