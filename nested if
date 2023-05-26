@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() 
+{
+    int accbal=2000;
+    int wdamt=1581;
+    if(accbal>wdamt)
+    {
+        if(wdamt % 100 ==0)
+        {
+            printf("withdraw success");
+        }
+        else
+        {
+            printf("invalid denomination");
+        }
+}        
+else
+{
+    printf("insufficient balance");
+}
+return 0;
+}
