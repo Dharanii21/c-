@@ -140,3 +140,24 @@ int main() {
 
     return 0;
 }
+
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    float a=8.9;
+    float b;
+    printf("height of the person:");
+    scanf("%f",&b);
+    if(a>b)
+    
+        printf("a is taller\n");
+    
+    else
+        printf("b is the taller\n");
+    
+
+    return 0;
+}
