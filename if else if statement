@@ -49,3 +49,33 @@ int main() {
 
     return 0;
 }   
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int a;
+    printf("amount:");
+    scanf("%d",&a);
+    if(a<=1000){
+    
+        printf("no dis\n");
+    }
+    else if(a>1000&& a<=5000){
+        printf("20%% dis\n");
+    }
+    else if(a>5000&&a<10000){
+        printf("50%% dis\n");
+    }
+    else{
+        printf("70%% dis ");
+    }
+    
+    
+    
+
+    return 0;
+}   
